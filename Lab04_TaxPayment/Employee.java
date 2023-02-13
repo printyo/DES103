@@ -14,7 +14,7 @@ public abstract class Employee {
     abstract void printWorkPlace();
 
     void printInfo() {
-        System.out.println(name + " is a position " + position);
+        System.out.println(name + " is a " + position);
     }
 
     double calculateTaxRate(double salary) {

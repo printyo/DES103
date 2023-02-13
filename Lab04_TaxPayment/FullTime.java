@@ -1,6 +1,6 @@
 package Lab04_TaxPayment;
 
-public class FullTime extends Employee implements Taxpayer {
+public class FullTime extends Employee implements TaxPayer {
 
     String workplace;
     double salary;
@@ -24,7 +24,7 @@ public class FullTime extends Employee implements Taxpayer {
     }
 
     public double calculateTax() {
-        return calculateTaxRate(salary)*calculateYearlyIncome();
+        return super.calculateTaxRate(calculateYearlyIncome())*calculateYearlyIncome();
     }
 
     public void payTax() {
