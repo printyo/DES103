@@ -1,3 +1,5 @@
+package Lab05_FamilyMember;
+
 //Exercise 1: Write a FamilyMember class of which its details (2 points)
 public class FamilyMember {
 	// Exercise 1: add properties

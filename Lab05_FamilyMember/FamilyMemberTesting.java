@@ -1,3 +1,5 @@
+package Lab05_FamilyMember;
+
 public class FamilyMemberTesting {
 	public static void main(String[] args) {
 		
